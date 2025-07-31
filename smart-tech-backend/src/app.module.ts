@@ -27,4 +27,3 @@ import { SeedModule } from './seed/seed.module';
   providers: [AppService],
 })
 export class AppModule {}
-

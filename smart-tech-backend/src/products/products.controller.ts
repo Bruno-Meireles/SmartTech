@@ -57,4 +57,3 @@ export class ProductsController {
     return this.productsService.remove(id);
   }
 }
-

@@ -6,4 +6,3 @@ import { SeedService } from './seed.service';
   exports: [SeedService],
 })
 export class SeedModule {}
-

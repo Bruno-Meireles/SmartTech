@@ -66,10 +66,12 @@ export class SeedService {
       return;
     }
 
-    const productsData: ProductData[] = JSON.parse(fs.readFileSync(productsPath, 'utf8'));
-    console.log(`Importando ${productsData.length} produtos...` );
+    const productsData: ProductData[] = JSON.parse(
+      fs.readFileSync(productsPath, 'utf8'),
+    );
+    console.log(`Importando ${productsData.length} produtos...`);
 
-    const uniqueCategories = [...new Set(productsData.map(p => p.category))];
+    const uniqueCategories = [...new Set(productsData.map((p) => p.category))];
 
     for (const categoryName of uniqueCategories) {
       await this.prisma.category.upsert({
@@ -77,7 +79,7 @@ export class SeedService {
         update: {},
         create: {
           name: categoryName,
-          description:` Categoria ${categoryName}`,
+          description: ` Categoria ${categoryName}`,
         },
       });
     }
@@ -112,13 +114,14 @@ export class SeedService {
           description: productData.description,
           price: productData.price,
           categoryId: category.id,
-          variations: productData.variations && productData.variations.length > 0
-            ? {
-                create: productData.variations.map(variation => ({
-                  name: variation,
-                })),
-              }
-            : undefined,
+          variations:
+            productData.variations && productData.variations.length > 0
+              ? {
+                  create: productData.variations.map((variation) => ({
+                    name: variation,
+                  })),
+                }
+              : undefined,
         },
       });
     }

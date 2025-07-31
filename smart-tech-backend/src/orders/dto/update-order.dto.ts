@@ -6,4 +6,3 @@ export class UpdateOrderDto {
   @IsOptional()
   status?: OrderStatus;
 }
-
