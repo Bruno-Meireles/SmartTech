@@ -16,7 +16,7 @@ export class SeedService {
   constructor(private prisma: PrismaService) {}
 
   async seedDatabase() {
-    console.log('🌱 Iniciando seed do banco de dados...');
+    console.log(' Iniciando seed do banco de dados...');
 
     // Criar usuário admin
     await this.createAdminUser();
@@ -24,12 +24,12 @@ export class SeedService {
     // Importar dados do products.json
     await this.importProductsData();
 
-    console.log('✅ Seed concluído com sucesso!');
+    console.log(' Seed concluído com sucesso!');
   }
 
   private async createAdminUser() {
     const adminEmail = 'bruno.meirelessilva90@gmail.com';
-    
+
     // Verificar se o admin já existe
     const existingAdmin = await this.prisma.user.findUnique({
       where: { email: adminEmail },
@@ -42,7 +42,7 @@ export class SeedService {
 
     // Criar usuário admin
     const hashedPassword = await bcrypt.hash('SenhaSegura123!', 10);
-    
+
     await this.prisma.user.create({
       data: {
         email: adminEmail,
@@ -59,46 +59,41 @@ export class SeedService {
     const fs = require('fs');
     const path = require('path');
 
-    // Ler arquivo products.json
-    const productsPath = path.join(process.cwd(), '../../smart-tech-ecommerce/smart-tech-backend/src/products.json');
-    
+    const productsPath = path.resolve(__dirname, '../../scripts/products.json');
+
     if (!fs.existsSync(productsPath)) {
-      console.log('⚠️  Arquivo products.json não encontrado');
+      console.log('⚠ Arquivo products.json não encontrado');
       return;
     }
 
     const productsData: ProductData[] = JSON.parse(fs.readFileSync(productsPath, 'utf8'));
-    console.log(`📦 Importando ${productsData.length} produtos...`);
+    console.log(`Importando ${productsData.length} produtos...` );
 
-    // Criar categorias únicas
     const uniqueCategories = [...new Set(productsData.map(p => p.category))];
-    
+
     for (const categoryName of uniqueCategories) {
       await this.prisma.category.upsert({
         where: { name: categoryName },
         update: {},
         create: {
           name: categoryName,
-          description: `Categoria ${categoryName}`,
+          description:` Categoria ${categoryName}`,
         },
       });
     }
 
-    console.log(`📂 ${uniqueCategories.length} categorias criadas/atualizadas`);
+    console.log(`${uniqueCategories.length} categorias criadas/atualizadas`);
 
-    // Criar produtos
     for (const productData of productsData) {
-      // Buscar categoria
       const category = await this.prisma.category.findUnique({
         where: { name: productData.category },
       });
 
       if (!category) {
-        console.log(`⚠️  Categoria não encontrada: ${productData.category}`);
+        console.log(`⚠ Categoria não encontrada: ${productData.category}`);
         continue;
       }
 
-      // Verificar se produto já existe
       const existingProduct = await this.prisma.product.findFirst({
         where: {
           name: productData.name,
@@ -107,27 +102,27 @@ export class SeedService {
       });
 
       if (existingProduct) {
-        console.log(`⚠️  Produto já existe: ${productData.name}`);
+        console.log(`⚠ Produto já existe: ${productData.name}`);
         continue;
       }
 
-      // Criar produto
       await this.prisma.product.create({
         data: {
           name: productData.name,
           description: productData.description,
           price: productData.price,
           categoryId: category.id,
-          variations: productData.variations && productData.variations.length > 0 ? {
-            create: productData.variations.map(variation => ({
-              name: variation,
-            })),
-          } : undefined,
+          variations: productData.variations && productData.variations.length > 0
+            ? {
+                create: productData.variations.map(variation => ({
+                  name: variation,
+                })),
+              }
+            : undefined,
         },
       });
     }
 
-    console.log(`✅ Produtos importados com sucesso!`);
+    console.log('✅ Produtos importados com sucesso!');
   }
 }
-
