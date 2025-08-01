@@ -37,20 +37,27 @@ model Category {
 }
 
 model Product {
-  id          String   @id @default(cuid())
-  name        String
-  description String?
-  price       Float
-  categoryId  String
-  createdAt   DateTime @default(now())
-  updatedAt   DateTime @updatedAt
+  id            String   @id @default(cuid())
+  name          String
+  description   String?
+  price         Float
+  originalPrice Float?
+  discount      Int?
+  inStock       Boolean  @default(true)
+  isNew         Boolean  @default(false)
+  image         String?
+  rating        Int      @default(0)
+  categoryId    String
+  createdAt     DateTime @default(now())
+  updatedAt     DateTime @updatedAt
 
-  category   Category            @relation(fields: [categoryId], references: [id])
-  variations ProductVariation[]
-  orderItems OrderItem[]
+  category      Category            @relation(fields: [categoryId], references: [id])
+  variations    ProductVariation[]
+  orderItems    OrderItem[]
 
   @@map("products")
 }
+
 
 model ProductVariation {
   id        String   @id @default(cuid())

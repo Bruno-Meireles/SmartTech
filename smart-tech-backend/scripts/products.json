@@ -5,24 +5,652 @@
     "description": "Máquina de corte de hidrogel MTB-CUT 180T com software integrado e mais de 30.000 modelos de telefones celulares, tablets, notebooks e etc. Sem limite de corte, desbloqueada, 1 ano de garantia.",
     "category": "Máquinas",
     "variations": [],
-    "sku": "NTB001",
-    "discount_price": 3599,
-    "discount_percent": 10,
-    "is_new": true,
-    "quantity": 10
+    "image": "",
+    "stock": 10,
+    "discount": 0,
+    "featured": false
+  },  {
+    "name": "Carregador Sem Fio Premium",
+    "price": 89.99,
+    "description": "",
+    "category": "Carregadores",
+    "variations": [],
+    "image": "https://images.unsplash.com/photo-1586953208448-b95a79798f07?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
+    "stock": 10,
+    "discount": 31,
+    "featured": true
   },
+  {
+    "name": "Kit Capas Proteção Premium",
+    "price": 45.99,
+    "description": "",
+    "category": "Capas",
+    "variations": [],
+    "image": "https://images.unsplash.com/photo-1601593346740-925612772716?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
+    "stock": 10,
+    "discount": 34,
+    "featured": false
+  },
+  {
+    "name": "Cabo USB-C Trançado 2m",
+    "price": 34.99,
+    "description": "",
+    "category": "Cabos",
+    "variations": [],
+    "image": "https://images.unsplash.com/photo-1558618666-fcd25c85cd64?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
+    "stock": 10,
+    "discount": 0,
+    "featured": false
+  },
+  {
+    "name": "Carregador Rápido 65W",
+    "price": 79.99,
+    "description": "",
+    "category": "Carregadores",
+    "variations": [],
+    "image": "https://images.unsplash.com/photo-1583394838336-acd977736f90?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
+    "stock": 10,
+    "discount": 20,
+    "featured": true
+  },
+  {
+    "name": "Capa Anti-Impacto Transparente",
+    "price": 29.99,
+    "description": "",
+    "category": "Capas",
+    "variations": [],
+    "image": "https://images.unsplash.com/photo-1556656793-08538906a9f8?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
+    "stock": 0,
+    "discount": 0,
+    "featured": false
+  },
+  {
+    "name": "Cabo Lightning MFi 1.5m",
+    "price": 39.99,
+    "description": "",
+    "category": "Cabos",
+    "variations": [],
+    "image": "https://images.unsplash.com/photo-1572569511254-d8f925fe2cbb?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
+    "stock": 10,
+    "discount": 33,
+    "featured": false
+  },
+  
   {
     "name": "COPO TÉRMICO COM TAMPA 473ML",
     "price": 84.0,
     "description": "Copo térmico de aço inox; Tamanho único; Mantem a temperatura da sua bebida por até 7 horas; Possui abridor de garrafa na tampa.",
     "category": "Copos e Canecas",
+    "variations": ["Cores disponíveis"],
+    "image": "",
+    "stock": 10,
+    "discount": 0,
+    "featured": false
+  },
+  {
+    "name": "CANECA TÉRMICA 710ML",
+    "price": 64.0,
+    "description": "Tamanho único; Tempo de conservação: 8h; Aço Inoxidável.",
+    "category": "Copos e Canecas",
+    "variations": ["Cores e modelos disponíveis"],
+    "image": "",
+    "stock": 10,
+    "discount": 0,
+    "featured": false
+  },
+  {
+    "name": "CANECA TÉRMICA COM CANUDO E TAMPA 1200ML",
+    "price": 34.0,
+    "description": "Tamanho único; Tempo de conservação: 8h; Aço Inoxidável.",
+    "category": "Copos e Canecas",
+    "variations": ["Cores e modelos disponíveis"]
+  },
+  {
+    "name": "CANECA TÉRMICA CROMADA COM CANUDO 1200ML",
+    "price": 96.0,
+    "description": "Tamanho único; Tempo de conservação: 8h; Aço Inoxidável.",
+    "category": "Copos e Canecas",
+    "variations": ["Cores e modelos disponíveis"]
+  },
+  {
+    "name": "TAÇA TÉRMICA 480ML",
+    "price": 96.0,
+    "description": "Tamanho único; Tempo de conservação: 6h; Aço Inoxidável.",
+    "category": "Copos e Canecas",
+    "variations": ["Cores disponíveis"]
+  },
+  {
+    "name": "GARRAFA TÉRMICA 500ML",
+    "price": 72.2,
+    "description": "Tamanho único; Tempo de conservação: 8h; Possui medido LED; Aproximadamente 15cm de altura e 6cm de largura.",
+    "category": "Garrafas",
+    "variations": ["Cores disponíveis"]
+  },
+  {
+    "name": "GARRAFA INFANTIL COELHO 520ML",
+    "price": 76.0,
+    "description": "Garrafa infantil com design de coelho, 520ml.",
+    "category": "Garrafas",
+    "variations": []
+  },
+  {
+    "name": "GARRAFA INFANTIL ASTRONAUTA 480ML",
+    "price": 36.0,
+    "description": "Garrafa infantil com design de astronauta, 480ml.",
+    "category": "Garrafas",
+    "variations": []
+  },
+  {
+    "name": "PELÍCULA 3D PARA IPHONE",
+    "price": 2.4,
+    "description": "Película 3D para iPhone. PEDIDO MÍNIMO de 25 unidades (caixa fechada).",
+    "category": "Películas",
     "variations": [
-      "Cores disponíveis"
-    ],
-    "sku": "NTB001",
-    "discount_price": 3599,
-    "discount_percent": 10,
-    "is_new": true,
-    "quantity": 10
+      "7/8g",
+      "7/8 plus",
+      "XR/11",
+      "X/XS/11 pro",
+      "Xs max/11 pro Max",
+      "12/12 pro",
+      "12 pro max",
+      "13/13 pro",
+      "14",
+      "13 pro max",
+      "14 plus",
+      "14 pro",
+      "14 pro max",
+      "15/15 pro",
+      "15 plus",
+      "15 pro max",
+      "16",
+      "16 pro",
+      "16 plus",
+      "16 pro max"
+    ]
+  },
+  {
+    "name": "PELÍCULA 3D PARA XIAOMI",
+    "price": 2.4,
+    "description": "Película 3D para Xiaomi. PEDIDO MÍNIMO de 25 unidades (caixa fechada).",
+    "category": "Películas",
+    "variations": [
+      "Note 8",
+      "Note 9",
+      "Note 9s/ Note 9 pro",
+      "Note 10",
+      "Note 12",
+      "Note 12 pro",
+      "Note 12 plus",
+      "Note 13/ Note 13 pro",
+      "Mi 11 lote",
+      "Mi 13",
+      "Mi 14",
+      "Poco x3",
+      "Poco x4/ x4 pro",
+      "Poco x5",
+      "Poco x5 pro",
+      "Poco x6/ x6 pro",
+      "Poco m4 pro",
+      "Poco m5 5g",
+      "Redmi 9A/9C",
+      "Redmi 10A",
+      "Redmi 12c",
+      "Redmi 12",
+      "Redmi 13",
+      "Redmi 13c",
+      "Realme note 50",
+      "C35",
+      "C55"
+    ]
+  },
+  {
+    "name": "PELÍCULA 3D PARA SAMSUNG",
+    "price": 2.4,
+    "description": "Película 3D para Samsung. PEDIDO MÍNIMO de 25 unidades (caixa fechada).",
+    "category": "Películas",
+    "variations": [
+      "A01",
+      "A01 core",
+      "A02/A02s",
+      "A03/A03s",
+      "A04/A04s",
+      "A04 core",
+      "A04e",
+      "A05",
+      "A06",
+      "A10",
+      "A13",
+      "A14",
+      "A15",
+      "A16",
+      "A20/A30/A50",
+      "A20s",
+      "A21/A21s",
+      "A22 4g",
+      "A24",
+      "A25",
+      "A31",
+      "A32 4g",
+      "A34",
+      "A51/A52",
+      "A53",
+      "A54",
+      "A71/A72",
+      "A73 5g",
+      "J5 prime",
+      "J6",
+      "S20 fé",
+      "S21 fé",
+      "M13",
+      "M23",
+      "M53",
+      "M54"
+    ]
+  },
+  {
+    "name": "PELÍCULA 3D PARA MOTOROLA",
+    "price": 2.4,
+    "description": "Película 3D para Motorola. PEDIDO MÍNIMO de 25 unidades (caixa fechada).",
+    "category": "Películas",
+    "variations": [
+      "E6 play",
+      "E7",
+      "E7 plus",
+      "E7 Power",
+      "E13",
+      "E20",
+      "E22",
+      "G8 play/g8 plus",
+      "G8 Power li-te",
+      "G9/ g9 play",
+      "G10",
+      "G13",
+      "G14",
+      "G22",
+      "G23",
+      "G24",
+      "G31/G41",
+      "G34",
+      "G42",
+      "G51",
+      "G60/G60s",
+      "G64",
+      "G72",
+      "G82"
+    ]
+  },
+  {
+    "name": "PELÍCULA PRIVACIDADE PARA IPHONE",
+    "price": 8.0,
+    "description": "Película de privacidade para iPhone.",
+    "category": "Películas",
+    "variations": [
+      "iPhone X",
+      "iPhone XS",
+      "iPhone XS Max",
+      "iPhone XR",
+      "iPhone 11",
+      "iPhone 11 Pro",
+      "iPhone 11 Pro Max",
+      "iPhone 12",
+      "iPhone 12 Pro",
+      "iPhone 12 Pro Max",
+      "iPhone 13",
+      "iPhone 13 Pro",
+      "iPhone 13 Pro Max",
+      "iPhone 14",
+      "iPhone 14 Plus",
+      "iPhone 14 Pro",
+      "iPhone 14 Pro Max",
+      "iPhone 15",
+      "iPhone 15 pro",
+      "iPhone 15 pro Max"
+    ]
+  },
+  {
+    "name": "PELÍCULA PRIVACIDADE FOSCA MIETUBL",
+    "price": 8.0,
+    "description": "O filme de hidrogel é um filme macio feito de materiais flexíveis de poliuretano, resiste a impressões digitais e pode ser moldado para se ajustar às superfícies de telefones celulares mais finos.",
+    "category": "Películas",
+    "variations": [
+      "iPhone 7 Plus",
+      "iPhone 8",
+      "iPhone 8 Plus",
+      "iPhone X",
+      "iPhone XS",
+      "iPhone XS Max",
+      "iPhone XR",
+      "iPhone 11",
+      "iPhone 11 Pro",
+      "iPhone 11 Pro Max",
+      "iPhone 12",
+      "iPhone 12 Pro",
+      "iPhone 12 Pro Max",
+      "iPhone 13",
+      "iPhone 13 Pro",
+      "iPhone 13 Pro Max",
+      "iPhone 14",
+      "iPhone 14 Plus",
+      "iPhone 14 Pro",
+      "iPhone 14 Pro Max",
+      "iPhone 15",
+      "iPhone 15 Plus",
+      "iPhone 15 Pro",
+      "iPhone 15 Pro Max"
+    ]
+  },
+  {
+    "name": "PELÍCULA DE CERÂMICA PARA IPHONE",
+    "price": 3.6,
+    "description": "Película de cerâmica para iPhone.",
+    "category": "Películas",
+    "variations": [
+      "iPhone 7",
+      "iPhone 7 Plus",
+      "iPhone 8",
+      "iPhone 8 Plus",
+      "iPhone X",
+      "iPhone XS",
+      "iPhone XS Max",
+      "iPhone XR",
+      "iPhone 11",
+      "iPhone 11 Pro",
+      "iPhone 11 Pro Max",
+      "iPhone 12",
+      "iPhone 12 Pro",
+      "iPhone 12 Pro Max",
+      "iPhone 13",
+      "iPhone 13 Pro",
+      "iPhone 13 Pro Max",
+      "iPhone 14",
+      "iPhone 14 Plus",
+      "iPhone 14 Pro",
+      "iPhone 14 Pro Max",
+      "iPhone 15",
+      "iPhone 15 pro",
+      "iPhone 15 Plus",
+      "iPhone 15 pro Max"
+    ]
+  },
+  {
+    "name": "PELÍCULA DE CERÂMICA FOSCA IPHONE",
+    "price": 5.0,
+    "description": "Película de cerâmica fosca para iPhone.",
+    "category": "Películas",
+    "variations": [
+      "iPhone X",
+      "iPhone XS",
+      "iPhone XS Max",
+      "iPhone XR",
+      "iPhone 11",
+      "iPhone 11 Pro",
+      "iPhone 11 Pro Max",
+      "iPhone 12",
+      "iPhone 12 Pro",
+      "iPhone 12 Pro Max",
+      "iPhone 13",
+      "iPhone 13 Pro",
+      "iPhone 13 Pro Max",
+      "iPhone 14",
+      "iPhone 14 Plus",
+      "iPhone 14 Pro",
+      "iPhone 14 Pro Max",
+      "iPhone 15",
+      "iPhone 15 pro",
+      "iPhone 15 pro Max"
+    ]
+  },
+  {
+    "name": "CAPA TRANSPARENTE PARA IPHONE",
+    "price": 13.0,
+    "description": "Capa transparente para iPhone.",
+    "category": "Capas",
+    "variations": [
+      "iPhone 11",
+      "iPhone 11 Pro",
+      "iPhone 11 ProMax",
+      "iPhone 12",
+      "iPhone 12 Pro",
+      "iPhone 12 ProMax",
+      "iPhone 13",
+      "iPhone 13 Mini",
+      "iPhone 13 Pro",
+      "iPhone 13 ProMax",
+      "iPhone 14",
+      "iPhone 14 Pro",
+      "iPhone 14 Plus",
+      "iPhone 14 ProMax"
+    ]
+  },
+  {
+    "name": "CAPA TRANSPARENTE PARA IPHONE 15 - CLEAR SPACE",
+    "price": 12.0,
+    "description": "Capa transparente Clear Space para iPhone 15.",
+    "category": "Capas",
+    "variations": ["15", "15 PLUS", "15 PRO", "15 PRO MAX"]
+  },
+  {
+    "name": "CAPAS CLEAR SPACE LINHA 16",
+    "price": 16.0,
+    "description": "Capas Clear Space para linha iPhone 16.",
+    "category": "Capas",
+    "variations": [
+      "iPhone 16",
+      "iPhone 16 Pro",
+      "iPhone 16 Pro Max",
+      "iPhone 16 Plus"
+    ]
+  },
+  {
+    "name": "CASES DE SILICONE",
+    "price": 11.0,
+    "description": "Cases de silicone para iPhone.",
+    "category": "Capas",
+    "variations": [
+      "iPhone 6S",
+      "iPhone SE",
+      "iPhone 7",
+      "iPhone 7 Plus",
+      "iPhone 8",
+      "iPhone 8 Plus",
+      "iPhone X",
+      "iPhone XS",
+      "iPhone XS Max",
+      "iPhone XR",
+      "iPhone 11",
+      "iPhone 11 Pro",
+      "iPhone 11 Pro Max",
+      "iPhone SE",
+      "iPhone 12",
+      "iPhone 12 Pro",
+      "iPhone 12 Pro Max",
+      "iPhone 13",
+      "iPhone 13 Pro",
+      "iPhone 13 Pro Max",
+      "iPhone 14",
+      "iPhone 14 Plus",
+      "iPhone 14 Pro",
+      "iPhone 14 Pro Max"
+    ]
+  },
+  {
+    "name": "CAPAS DE SILICONE AVELUDADO LINHA 16",
+    "price": 15.0,
+    "description": "Capas de silicone aveludado para iPhone 16.",
+    "category": "Capas",
+    "variations": [
+      "iPhone 16",
+      "iPhone 16 Pro",
+      "iPhone 16 Pro Max",
+      "iPhone 16 Plus"
+    ]
+  },
+  {
+    "name": "CARREGADOR 50W USB C+C",
+    "price": 36.0,
+    "description": "Carregamento rápido, Corrente inteligente; 50w de potência; USB C+C",
+    "category": "Carregadores",
+    "variations": []
+  },
+  {
+    "name": "CARREGADOR USB APPLE",
+    "price": 60.0,
+    "description": "USB 5W; Alto nível de eficiência; Não acompanha cabo. *Original com garantia de 6 meses",
+    "category": "Carregadores",
+    "variations": []
+  },
+  {
+    "name": "CARREGADOR PARA DISPOSITIVO APPLE",
+    "price": 80.0,
+    "description": "Corrente inteligente; 20w de potência; Lightning e USB-C. *Original com garantia de 6 meses",
+    "category": "Carregadores",
+    "variations": []
+  },
+  {
+    "name": "POWER BANK 5000",
+    "price": 44.0,
+    "description": "Capacidade: 5.000mAh, Capacidade da Bateria Interna: 3.7V/5000mAh 18.5wh, Entrada: Micro USB Dc 5v 2a, Saída Nominal: =3160mAh =15.8Wh, Dupla Saída Usb: 5v 2.1a, 5v 2.1a",
+    "category": "Power Banks",
+    "variations": []
+  },
+  {
+    "name": "POWER BANK 10000",
+    "price": 44.0,
+    "description": "Modelo 4 em 1, com entradas Lightning; Tipo-C; Micro USB v8 e USB; Recarga rápida e eficiente (Modelo com 10.000 mAh); Cabo incluso.",
+    "category": "Power Banks",
+    "variations": []
+  },
+  {
+    "name": "POWER BANK 10000 PINENG",
+    "price": 140.0,
+    "description": "Power Bank 10.000mAh com Indução – Carregue sem fio ou via cabo, ideal para o dia a dia corrido. Compatível com Carga Rápida – Ganhe tempo com recargas eficientes e seguras. Capa Magnética com Imã– Encaixe perfeito para iPhones com suporte a carregamento por indução",
+    "category": "Power Banks",
+    "variations": []
+  },
+  {
+    "name": "EARPODS PARA IPHONE USB-C",
+    "price": 24.0,
+    "description": "USB - C; Resolução máxima de 24bit/48kHz; Suporte a áudio Lossless.",
+    "category": "Fones",
+    "variations": []
+  },
+  {
+    "name": "EARPODS COM CONECTOR LIGHTNING APPLE",
+    "price": 50.0,
+    "description": "Som com alta qualidade; Design exclusivo; Ideal para o dia a dia. Ajuste de volume nos botões; Saída estéreo; Design único Apple.",
+    "category": "Fones",
+    "variations": []
+  },
+  {
+    "name": "AIR PODS 2",
+    "price": 80.0,
+    "description": "Bluetooth; Áudio Adaptativo. Áudio Espacial com uma imersão. COM GARANTIA DE 3 MESES",
+    "category": "Fones",
+    "variations": []
+  },
+  {
+    "name": "AIR PODS 3 PRO APPLE",
+    "price": 90.0,
+    "description": "Cancelamento Ativo de Ruído até 2x melhor. Áudio Adaptativo. Áudio Espacial com uma imersão única. COM GARANTIA DE 3 MESES",
+    "category": "Fones",
+    "variations": []
+  },
+  {
+    "name": "AIR PODS 4 APPLE",
+    "price": 90.0,
+    "description": "Áudio Espacial Personalizado. Som remasterizada. Equalização Adaptativa, que ajusta a música aos seus ouvidos. COM GARANTIA DE 3 MESES",
+    "category": "Fones",
+    "variations": []
+  },
+  {
+    "name": "JBL XTREME",
+    "price": 250.0,
+    "description": "Bateria integrada recarregável de íon de lítio; Suporta aproximadamente 15 horas de reprodução; Possui porta USB dupla.",
+    "category": "Caixas de Som",
+    "variations": []
+  },
+  {
+    "name": "BOOMBOX 2",
+    "price": 370.0,
+    "description": "Portátil; Som poderoso; Resistente à água.",
+    "category": "Caixas de Som",
+    "variations": []
+  },
+  {
+    "name": "JBL MINI XTREME",
+    "price": 140.0,
+    "description": "Versátil; Prático; Potente.",
+    "category": "Caixas de Som",
+    "variations": []
+  },
+  {
+    "name": "MÁQUINA DE CORTAR CABELO KM-5090",
+    "price": 96.0,
+    "description": "É sem fio e funciona com bateria recarregável. É carregado ao 100% em aproximadamente 8 h. Voltagem: 110V/220V. Você pode usá-lo por um tempo máximo de 1 hora em sua potência máxima. COM GARANTIA DE 3 MESES",
+    "category": "Máquinas de Cortar Cabelo",
+    "variations": []
+  },
+  {
+    "name": "MÁQUINA DE TOSA KM-1991",
+    "price": 250.0,
+    "description": "Tempo de carregamento: 90 minutos. Duração da bateria: 120 minutos. Carregamento via conector tipo C - USB. COM GARANTIA DE 3 MESES",
+    "category": "Máquinas de Cortar Cabelo",
+    "variations": []
+  },
+  {
+    "name": "PROJETOR DE LUZ COLORIDA ASTRONAUTA",
+    "price": 170.0,
+    "description": "Projetor de luz em formato de astronauta; Projeção de céu estrelado; Controle remoto intuitivo oferece a flexibilidade de ajustar a cor, a intensidade e a velocidade das projeções.",
+    "category": "Eletrônicos",
+    "variations": []
+  },
+  {
+    "name": "MINI PROJETOR PORTÁTIL",
+    "price": 399.8,
+    "description": "Conexões de entrada: HDMI. Conexões de saída: HDMI. Consumo de energia de 65W. Resolução nativa: 1280px x 720px. Suporta resoluções 4K. Tecnologia de projeção LED. Tamanho da projeção de 40\" - 130\". Conectividade Wi-Fi e Bluetooth.",
+    "category": "Eletrônicos",
+    "variations": []
+  },
+  {
+    "name": "GAME STICK DE GAMES RETRÔ 4K",
+    "price": 170.0,
+    "description": "Cartão de memória de 64GB; Jogos retrô; Mais de 10.000 jogos.",
+    "category": "Games",
+    "variations": []
+  },
+  {
+    "name": "GAME STICK RETRO X2 2 CONTROLES",
+    "price": 310.0,
+    "description": "ram:ddr3 2gb, memória cartão: 32g/64g/128g, número de jogos: 32g 15000 jogos/64g 30000 jogos/128g 40000 jogos",
+    "category": "Games",
+    "variations": []
+  },
+  {
+    "name": "VÍDEO GAME RETRÔ KA-5883",
+    "price": 500.0,
+    "description": "Tela: 7\" polegadas | resolução 800 x 400 pixels 30FPS, Bateria: 2500 mAh, Tempo de Carga: 2 Horas, Tempo de Uso: 4 à 6 horas",
+    "category": "Games",
+    "variations": []
+  },
+  {
+    "name": "MINI CÂMERA A9",
+    "price": 30.0,
+    "description": "Capacidade de armazenamento de 64GB. Microfone incluido. Conexão sem fio. Inclui visão noturna. Peso: 425g. Com sensor de movimento.",
+    "category": "Câmeras",
+    "variations": []
+  },
+  {
+    "name": "CÂMERA SEGURANÇA DUPLA LENTE",
+    "price": 360.0,
+    "description": "Áudio bilateral para comunicação bidirecional. Acesso ao monitoramento via computador, celular ou tablet. Alarme personalizado em zonas específicas. App de Acesso Remoto: ICSEE ou YOOSEE. IP66 impermeável e à prova de poeira.",
+    "category": "Câmeras",
+    "variations": []
+  },
+  {
+    "name": "ACTION CAMERA 4K",
+    "price": 530.0,
+    "description": "Tamanho da tela LCD: tela 2.0, Lente: 170 graus A + grande angular de alta resolução, Resolução de vídeo: 4K (25fps) / 2,7K (30fps) / 1080P (60fps) / 1080P (30fps) / 720P (120fps) / 720P (60fps)",
+    "category": "Câmeras",
+    "variations": []
   }
 ]
