@@ -1,7 +1,7 @@
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import { AuthProvider } from './hooks/useAuth';
 import { CartProvider } from './hooks/useCart';
-import { Header } from './components/Header';
+import Header from './components/Header';
 import { Home } from './pages/Home';
 import { Login } from './pages/Login';
 import { Products } from './pages/Products';
