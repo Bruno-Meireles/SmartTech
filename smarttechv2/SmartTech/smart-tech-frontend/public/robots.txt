@@ -1,0 +1,22 @@
+User-agent: *
+Allow: /
+
+# Disallow admin and private areas
+Disallow: /admin/
+Disallow: /api/
+Disallow: /login
+Disallow: /checkout/
+Disallow: /cart/
+Disallow: /account/
+
+# Allow important pages
+Allow: /products/
+Allow: /categories/
+Allow: /search/
+
+# Sitemap location
+Sitemap: https://smarttech.com.br/sitemap.xml
+
+# Crawl delay (optional)
+Crawl-delay: 1
+
