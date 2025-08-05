@@ -1,7 +1,0 @@
--- AlterTable
-ALTER TABLE "products" ADD COLUMN     "discount" INTEGER,
-ADD COLUMN     "image" TEXT,
-ADD COLUMN     "inStock" BOOLEAN NOT NULL DEFAULT true,
-ADD COLUMN     "isNew" BOOLEAN NOT NULL DEFAULT false,
-ADD COLUMN     "originalPrice" DOUBLE PRECISION,
-ADD COLUMN     "rating" INTEGER NOT NULL DEFAULT 0;
